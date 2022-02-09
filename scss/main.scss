@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// IMPORTACIONES
+
+@import "./header-footer/header";
+@import "./header-footer/footer";
+
+@import "././sections/index";
+@import "./sections/biblioteca";
+@import "./sections/contacto";
+@import "./sections/about";
