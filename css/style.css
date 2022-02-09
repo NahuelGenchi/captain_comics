@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background-image: url(../img/background-body.jpg);
+  background-repeat: repeat; }
+
 .header {
   margin: 0 auto; }
 
@@ -10,4 +14,6 @@
   margin: 0 auto; }
 
 .mainIndex {
-  background-color: black; }
+  background-color: white;
+  height: 84vh;
+  margin: 0 auto; }

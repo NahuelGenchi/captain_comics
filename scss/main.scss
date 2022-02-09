@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/background-body.jpg);
+    background-repeat: repeat;
+}
+
 // IMPORTACIONES
 
 @import "./header-footer/header";
