@@ -62,8 +62,6 @@ body {
           .mainIndex .second_container .row .colEdit h2:hover {
             background-color: black;
             opacity: 90%; }
-        .mainIndex .second_container .row .colEdit:hover {
-          border: 2px black solid; }
 
 .footer {
   margin: 0 auto;

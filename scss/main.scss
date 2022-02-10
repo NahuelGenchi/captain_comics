@@ -12,11 +12,11 @@ body {
 
 // IMPORTACIONES
 
-@import "./header-footer/header";
+@import "header";
 
-@import "./sections/index";
-@import "./sections/biblioteca";
-@import "./sections/contacto";
-@import "./sections/about";
+@import "index";
+@import "biblioteca";
+@import "contacto";
+@import "about";
 
-@import "./header-footer/footer";
+@import "footer";
