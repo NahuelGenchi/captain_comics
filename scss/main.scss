@@ -1,22 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url(../img/background-body.jpg);
-    background-repeat: repeat;
-    font-family: 'Hahmlet', serif;
-}
-
 // IMPORTACIONES
 
+@import "general";
 @import "header";
 
 @import "index";
 @import "biblioteca";
 @import "contacto";
+@import "personajes";
 @import "about";
 
 @import "footer";

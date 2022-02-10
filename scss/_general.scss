@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background-body.jpg);
+    background-repeat: repeat;
+    font-family: 'Hahmlet', serif;
+}
+
+.first_container {
+    height: 30%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+    .main__logo {
+        width: 100%;
+        .main__logo--title {
+            font-family: 'Bubblegum Sans', cursive;
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 50px 0 0 0;
+        }
+    }
+}

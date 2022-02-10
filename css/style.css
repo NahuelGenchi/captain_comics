@@ -8,6 +8,19 @@ body {
   background-repeat: repeat;
   font-family: 'Hahmlet', serif; }
 
+.first_container {
+  height: 30%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.712); }
+  .first_container .main__logo {
+    width: 100%; }
+    .first_container .main__logo .main__logo--title {
+      font-family: 'Bubblegum Sans', cursive;
+      width: 60%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 50px 0 0 0; }
+
 .header {
   margin: 0 auto; }
 
@@ -15,18 +28,6 @@ body {
   background-color: rgba(255, 255, 255, 0.801);
   height: 84vh;
   margin: 0 auto; }
-  .mainIndex .first_container {
-    height: 30%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.712); }
-    .mainIndex .first_container .main__logo {
-      width: 100%; }
-      .mainIndex .first_container .main__logo .main__logo--title {
-        font-family: 'Bubblegum Sans', cursive;
-        width: 60%;
-        text-align: center;
-        margin: 0 auto;
-        padding: 50px 0 0 0; }
   .mainIndex .second_container {
     height: 70%; }
     .mainIndex .second_container .row {
@@ -62,6 +63,26 @@ body {
           .mainIndex .second_container .row .colEdit h2:hover {
             background-color: black;
             opacity: 90%; }
+
+.mainBiblioteca {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 84vh;
+  margin: 0 auto; }
+
+.mainContacto {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 84vh;
+  margin: 0 auto; }
+
+.mainPersonajes {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 84vh;
+  margin: 0 auto; }
+
+.mainAbout {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 84vh;
+  margin: 0 auto; }
 
 .footer {
   margin: 0 auto;
