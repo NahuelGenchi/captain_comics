@@ -1,20 +1,69 @@
 .mainIndex {
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.801);
     // opacity: 20%;
     height: 84vh;
     margin: 0 auto;
     .first_container {
         height: 30%;
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.74);
+        background-color: rgba(255, 255, 255, 0.712);
         .main__logo {
             width: 100%;
             .main__logo--title {
                 font-family: 'Bubblegum Sans', cursive;
-                width: 55%;
+                width: 60%;
                 text-align: center;
                 margin: 0 auto;
                 padding: 50px 0 0 0;
+            }
+        }
+    }
+    .second_container {
+        height: 70%;
+        .row {
+            height: 100%;
+            .col {
+                border: 1px solid gray;
+                height: 100%;
+            }
+            .fir_row {
+                background-image: url("../img/fir_img.jpg");
+            }
+            .sec_row {
+                background-image: url("../img/background-sec_container.jpg");
+            }
+            .thi_row {
+                background-image: url("../img/venom.jpg");
+            }
+            .fou_row {
+                background-image: url("../img/fou_img.png");
+            }
+            .colEdit {
+                width: 100%;
+                height: 25%;
+                background-color: rgb(48, 48, 48);
+                padding: 0;
+                a {
+                    width: 100%;
+                    text-decoration: none;
+                }
+                h2 {
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    padding: 30px 0 0 0;
+                    opacity: 70%;
+                    background-color: rgb(48, 48, 48);
+                    color: white;
+                    &:hover {
+                        background-color: rgb(0, 0, 0);
+                        opacity: 90%;
+                    }
+                }
+                &:hover {
+                    border: 2px black solid;
+                }
             }
         }
     }

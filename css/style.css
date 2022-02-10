@@ -5,27 +5,65 @@
 
 body {
   background-image: url(../img/background-body.jpg);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  font-family: 'Hahmlet', serif; }
 
 .header {
   margin: 0 auto; }
 
 .mainIndex {
-  background-color: rgba(255, 255, 255, 0.671);
+  background-color: rgba(255, 255, 255, 0.801);
   height: 84vh;
   margin: 0 auto; }
   .mainIndex .first_container {
     height: 30%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.74); }
+    background-color: rgba(255, 255, 255, 0.712); }
     .mainIndex .first_container .main__logo {
       width: 100%; }
       .mainIndex .first_container .main__logo .main__logo--title {
         font-family: 'Bubblegum Sans', cursive;
-        width: 55%;
+        width: 60%;
         text-align: center;
         margin: 0 auto;
         padding: 50px 0 0 0; }
+  .mainIndex .second_container {
+    height: 70%; }
+    .mainIndex .second_container .row {
+      height: 100%; }
+      .mainIndex .second_container .row .col {
+        border: 1px solid gray;
+        height: 100%; }
+      .mainIndex .second_container .row .fir_row {
+        background-image: url("../img/fir_img.jpg"); }
+      .mainIndex .second_container .row .sec_row {
+        background-image: url("../img/background-sec_container.jpg"); }
+      .mainIndex .second_container .row .thi_row {
+        background-image: url("../img/venom.jpg"); }
+      .mainIndex .second_container .row .fou_row {
+        background-image: url("../img/fou_img.png"); }
+      .mainIndex .second_container .row .colEdit {
+        width: 100%;
+        height: 25%;
+        background-color: #303030;
+        padding: 0; }
+        .mainIndex .second_container .row .colEdit a {
+          width: 100%;
+          text-decoration: none; }
+        .mainIndex .second_container .row .colEdit h2 {
+          height: 100%;
+          width: 100%;
+          text-align: center;
+          margin: 0 auto;
+          padding: 30px 0 0 0;
+          opacity: 70%;
+          background-color: #303030;
+          color: white; }
+          .mainIndex .second_container .row .colEdit h2:hover {
+            background-color: black;
+            opacity: 90%; }
+        .mainIndex .second_container .row .colEdit:hover {
+          border: 2px black solid; }
 
 .footer {
   margin: 0 auto;
