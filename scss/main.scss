@@ -12,9 +12,10 @@ body {
 // IMPORTACIONES
 
 @import "./header-footer/header";
-@import "./header-footer/footer";
 
-@import "././sections/index";
+@import "./sections/index";
 @import "./sections/biblioteca";
 @import "./sections/contacto";
 @import "./sections/about";
+
+@import "./header-footer/footer";

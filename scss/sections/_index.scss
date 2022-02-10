@@ -1,5 +1,21 @@
 .mainIndex {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.671);
+    // opacity: 20%;
     height: 84vh;
     margin: 0 auto;
+    .first_container {
+        height: 30%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.74);
+        .main__logo {
+            width: 100%;
+            .main__logo--title {
+                font-family: 'Bubblegum Sans', cursive;
+                width: 55%;
+                text-align: center;
+                margin: 0 auto;
+                padding: 50px 0 0 0;
+            }
+        }
+    }
 }
