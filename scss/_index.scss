@@ -1,9 +1,9 @@
 .mainIndex {
     background-color: rgba(255, 255, 255, 0.801);
-    height: 84vh;
+    height: 85vh;
     margin: 0 auto;
     .second_container {
-        height: 70%;
+        height: 60vh;
         .row {
             height: 100%;
             .col {
@@ -43,6 +43,7 @@
                     color: white;
                     &:hover {
                         background-color: rgb(0, 0, 0);
+                        opacity: 90%;
                     }
                 }
             }

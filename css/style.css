@@ -9,11 +9,12 @@ body {
   font-family: 'Hahmlet', serif; }
 
 .first_container {
-  height: 30%;
+  height: 25vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.712); }
   .first_container .main__logo {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
     .first_container .main__logo .main__logo--title {
       font-family: 'Bubblegum Sans', cursive;
       width: 60%;
@@ -26,10 +27,10 @@ body {
 
 .mainIndex {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 84vh;
+  height: 85vh;
   margin: 0 auto; }
   .mainIndex .second_container {
-    height: 70%; }
+    height: 60vh; }
     .mainIndex .second_container .row {
       height: 100%; }
       .mainIndex .second_container .row .col {
@@ -62,12 +63,103 @@ body {
           transition: background-color 0.8s;
           color: white; }
           .mainIndex .second_container .row .colEdit h2:hover {
-            background-color: black; }
+            background-color: black;
+            opacity: 90%; }
 
 .mainBiblioteca {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 84vh;
   margin: 0 auto; }
+  .mainBiblioteca .comicContainer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite; }
+    .mainBiblioteca .comicContainer .row {
+      border: 1px solid black; }
+      .mainBiblioteca .comicContainer .row .comicThumbnail {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh; }
+        .mainBiblioteca .comicContainer .row .comicThumbnail a {
+          height: 100%;
+          width: 100%;
+          text-decoration: none; }
+        .mainBiblioteca .comicContainer .row .comicThumbnail .comicThumbnail-dark {
+          background-color: rgba(0, 0, 0, 0.85);
+          color: white;
+          text-align: center;
+          text-decoration-skip: opacity;
+          padding: 50px 0 0 0;
+          margin: 0;
+          width: 100%;
+          height: 100%;
+          transition: background-color 0.8s; }
+          .mainBiblioteca .comicContainer .row .comicThumbnail .comicThumbnail-dark:hover {
+            background-color: rgba(0, 0, 0, 0.404); }
+          .mainBiblioteca .comicContainer .row .comicThumbnail .comicThumbnail-dark h5 {
+            width: 85%;
+            margin: auto; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_fir {
+        background-image: url("../img/comics/amazing_spiderman.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_2 {
+        background-image: url("../img/comics/captain_america.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_3 {
+        background-image: url("../img/comics/thanos.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_4 {
+        background-image: url("../img/comics/marvel_zombies.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_5 {
+        background-image: url("../img/comics/iron_man.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_6 {
+        background-image: url("../img/comics/thor.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_7 {
+        background-image: url("../img/comics/the_avengers.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_8 {
+        background-image: url("../img/comics/the_xmen.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      .mainBiblioteca .comicContainer .row .comicThumnail_9 {
+        background-image: url("../img/comics/galactus.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+  .mainBiblioteca .nextPage_container {
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: 1px solid black; }
+    .mainBiblioteca .nextPage_container .nextPage {
+      height: 100%;
+      width: 35%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .mainBiblioteca .nextPage_container .nextPage a {
+        text-decoration: none;
+        background-color: #353535;
+        height: 25px;
+        width: 30px;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px; }
+      .mainBiblioteca .nextPage_container .nextPage .activeLink {
+        background-color: #1d1d1d; }
 
 .mainContacto {
   background-color: rgba(255, 255, 255, 0.801);
@@ -86,4 +178,17 @@ body {
 
 .footer {
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.753); }
+  background-color: rgba(44, 44, 44, 0.904);
+  border: 1px solid black;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer a {
+    text-decoration: none;
+    color: #d8d8d8; }
+    .footer a:hover {
+      color: white; }
+  .footer span {
+    font-size: 15px;
+    color: #b6b3b3; }
