@@ -30,7 +30,7 @@ body {
   height: auto;
   margin: 0 auto; }
   .mainIndex .second_container {
-    height: 54vh; }
+    height: 55vh; }
     .mainIndex .second_container .row {
       height: 100%; }
       .mainIndex .second_container .row .col {
@@ -49,22 +49,19 @@ body {
         height: 25%;
         background-color: #303030;
         padding: 0; }
-        .mainIndex .second_container .row .colEdit a {
-          width: 100%;
-          text-decoration: none; }
-        .mainIndex .second_container .row .colEdit h2 {
+        .mainIndex .second_container .row .colEdit .colClick {
+          cursor: pointer;
           height: 100%;
-          width: 100%;
-          text-align: center;
-          margin: 0 auto;
-          padding: 30px 0 0 0;
-          opacity: 80%;
-          background-color: #303030;
-          transition: background-color 0.8s;
-          color: white; }
-          .mainIndex .second_container .row .colEdit h2:hover {
-            background-color: black;
-            opacity: 90%; }
+          padding: 30px 0;
+          background-color: rgba(48, 48, 48, 0.8);
+          transition: background-color 0.8s; }
+          .mainIndex .second_container .row .colEdit .colClick:hover {
+            background-color: rgba(0, 0, 0, 0.9); }
+          .mainIndex .second_container .row .colEdit .colClick h2 {
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+            color: white; }
 
 .mainBiblioteca {
   background-color: rgba(255, 255, 255, 0.801);
