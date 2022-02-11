@@ -9,28 +9,28 @@ body {
   font-family: 'Hahmlet', serif; }
 
 .first_container {
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.712); }
-  .first_container .main__logo {
-    width: 100%;
-    height: 100%; }
-    .first_container .main__logo .main__logo--title {
-      font-family: 'Bubblegum Sans', cursive;
-      width: 60%;
-      text-align: center;
-      margin: 0 auto;
-      padding: 50px 0 0 0; }
+  .first_container .main__logo--title {
+    font-family: 'Bubblegum Sans', cursive;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 .header {
   margin: 0 auto; }
 
 .mainIndex {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 85vh;
+  height: auto;
   margin: 0 auto; }
   .mainIndex .second_container {
-    height: 60vh; }
+    height: 54vh; }
     .mainIndex .second_container .row {
       height: 100%; }
       .mainIndex .second_container .row .col {
