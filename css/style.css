@@ -28,6 +28,7 @@ body {
 .mainIndex {
   background-color: rgba(255, 255, 255, 0.801);
   height: auto;
+  min-height: 84vh;
   margin: 0 auto; }
   .mainIndex .second_container {
     height: 55vh; }
@@ -65,7 +66,8 @@ body {
 
 .mainBiblioteca {
   background-color: rgba(255, 255, 255, 0.801);
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 84vh; }
   .mainBiblioteca .comicContainer {
     width: 100%;
     margin: 0 auto;
@@ -98,42 +100,6 @@ body {
           .mainBiblioteca .comicContainer .row .comicThumbnail .comicThumbnail-dark h5 {
             width: 85%;
             margin: auto; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_fir {
-        background-image: url("../img/comics/amazing_spiderman.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_2 {
-        background-image: url("../img/comics/captain_america.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_3 {
-        background-image: url("../img/comics/thanos.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_4 {
-        background-image: url("../img/comics/marvel_zombies.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_5 {
-        background-image: url("../img/comics/iron_man.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_6 {
-        background-image: url("../img/comics/thor.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_7 {
-        background-image: url("../img/comics/the_avengers.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_8 {
-        background-image: url("../img/comics/the_xmen.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
-      .mainBiblioteca .comicContainer .row .comicThumnail_9 {
-        background-image: url("../img/comics/galactus.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; }
   .mainBiblioteca .nextPage_container {
     height: 8vh;
     width: 100%;
@@ -158,19 +124,99 @@ body {
       .mainBiblioteca .nextPage_container .nextPage .activeLink {
         background-color: #1d1d1d; }
 
+.comicThumnail_fir {
+  background-image: url("../img/comics/amazing_spiderman.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_2 {
+  background-image: url("../img/comics/captain_america.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_3 {
+  background-image: url("../img/comics/thanos.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_4 {
+  background-image: url("../img/comics/marvel_zombies.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_5 {
+  background-image: url("../img/comics/iron_man.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_6 {
+  background-image: url("../img/comics/thor.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_7 {
+  background-image: url("../img/comics/the_avengers.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_8 {
+  background-image: url("../img/comics/the_xmen.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.comicThumnail_9 {
+  background-image: url("../img/comics/galactus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.mainComics {
+  background-color: rgba(255, 255, 255, 0.904);
+  margin: 0 auto;
+  min-height: 84vh; }
+  .mainComics .container-fluid {
+    padding: 0; }
+    .mainComics .container-fluid .row {
+      margin: 0; }
+      .mainComics .container-fluid .row .comicBigContainer {
+        padding: 0;
+        border: 1px solid black; }
+        .mainComics .container-fluid .row .comicBigContainer .comicTitle {
+          padding: 10px 0; }
+          .mainComics .container-fluid .row .comicBigContainer .comicTitle h6 {
+            text-align: center;
+            color: black;
+            font-weight: bold; }
+      .mainComics .container-fluid .row .comicExplain {
+        padding: 0;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black; }
+        .mainComics .container-fluid .row .comicExplain .comicExplainContainer {
+          height: 100%;
+          width: 90%;
+          margin: 0 auto; }
+          .mainComics .container-fluid .row .comicExplain .comicExplainContainer h3 {
+            font-weight: bold;
+            padding: 20px 0 0 0; }
+          .mainComics .container-fluid .row .comicExplain .comicExplainContainer p {
+            padding: 10px 0 0 0; }
+  .mainComics .comicThumbnail {
+    height: 60vh;
+    width: 100%; }
+
 .mainContacto {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 84vh;
+  min-height: 84vh;
   margin: 0 auto; }
 
 .mainPersonajes {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 84vh;
+  min-height: 84vh;
   margin: 0 auto; }
 
 .mainAbout {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 84vh;
+  min-height: 84vh;
   margin: 0 auto; }
 
 .footer {

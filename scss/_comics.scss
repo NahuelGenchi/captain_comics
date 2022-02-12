@@ -1,0 +1,45 @@
+.mainComics {
+    background-color: rgba(255, 255, 255, 0.904);
+    margin: 0 auto;
+    min-height: 84vh;
+    .container-fluid {
+        padding: 0;
+        .row {
+            margin: 0;
+            .comicBigContainer {
+                padding: 0;
+                border: 1px solid black;
+                .comicTitle {
+                    padding: 10px 0;
+                    h6 {
+                        text-align: center;
+                        color: black;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .comicExplain {
+                padding: 0; 
+                border-top: 1px solid black;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                .comicExplainContainer {
+                    height: 100%;
+                    width: 90%;
+                    margin: 0 auto;
+                    h3 {
+                        font-weight: bold;
+                        padding: 20px 0 0 0;
+                    }
+                    p {
+                        padding: 10px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+    .comicThumbnail {
+        height: 60vh;
+        width: 100%;
+    }
+}
