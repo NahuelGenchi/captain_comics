@@ -1,7 +1,10 @@
 .mainComics {
     background-color: rgba(255, 255, 255, 0.904);
     margin: 0 auto;
-    min-height: 84vh;
+    min-height: 86vh;
+    .first_container {
+        height: 30vh;
+    }
     .container-fluid {
         padding: 0;
         .row {
