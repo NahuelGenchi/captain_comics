@@ -24,10 +24,7 @@ body {
     justify-content: center; }
 
 .header {
-  margin: 0 auto;
-  height: 7%; }
-  .header nav {
-    height: 100%; }
+  margin: 0 auto; }
 
 .mainIndex {
   background-color: rgba(255, 255, 255, 0.801);
@@ -216,7 +213,7 @@ body {
 
 .mainContacto {
   background-color: rgba(255, 255, 255, 0.801);
-  min-height: 84vh;
+  height: 86%;
   margin: 0 auto; }
 
 .mainPersonajes {
@@ -226,7 +223,7 @@ body {
 
 .mainAbout {
   background-color: rgba(255, 255, 255, 0.801);
-  min-height: 84vh;
+  height: 86%;
   margin: 0 auto; }
 
 .footer {
