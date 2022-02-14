@@ -1,3 +1,25 @@
+.mainComics .container-fluid .row .comicExplain .comicExplainContainer h3, .mainInfo .infoBigContainer .infoContainer h3 {
+  padding: 20px 0 0 0; }
+
+.mainComics .container-fluid .row .comicExplain .comicExplainContainer p, .mainInfo .infoBigContainer .infoContainer p {
+  padding: 10px 0 0 0; }
+
+.spanLorem {
+  color: red;
+  font-weight: bold; }
+
+.spanIpsum {
+  color: green;
+  font-weight: bold; }
+
+.spanDolor {
+  color: blue;
+  font-weight: bold; }
+
+.spanElit {
+  color: orange;
+  font-weight: bold; }
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +50,6 @@ body {
 
 .mainIndex {
   background-color: rgba(255, 255, 255, 0.801);
-  height: auto;
   height: 86%;
   margin: 0 auto; }
   .mainIndex .second_container {
@@ -199,14 +220,9 @@ body {
         border-right: 1px solid black;
         border-bottom: 1px solid black; }
         .mainComics .container-fluid .row .comicExplain .comicExplainContainer {
-          height: 100%;
           width: 90%;
+          height: 100%;
           margin: 0 auto; }
-          .mainComics .container-fluid .row .comicExplain .comicExplainContainer h3 {
-            font-weight: bold;
-            padding: 20px 0 0 0; }
-          .mainComics .container-fluid .row .comicExplain .comicExplainContainer p {
-            padding: 10px 0 0 0; }
   .mainComics .comicThumbnail {
     height: 60vh;
     width: 100%; }
@@ -223,8 +239,28 @@ body {
 
 .mainInfo {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 86%;
+  min-height: 86vh;
   margin: 0 auto; }
+  .mainInfo .first_container {
+    height: 30vh; }
+  .mainInfo .infoBigContainer {
+    margin: 0 auto; }
+    .mainInfo .infoBigContainer .infoContainer {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto; }
+
+@media (max-width: 1024px) {
+  .infoBigContainer {
+    height: 80vh; } }
+
+@media (max-width: 425px) {
+  .infoBigContainer {
+    height: 110vh; } }
+
+@media (max-width: 375px) {
+  .infoBigContainer {
+    height: 130vh; } }
 
 .footer {
   margin: 0 auto;

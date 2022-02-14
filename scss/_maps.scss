@@ -1,0 +1,14 @@
+// MAPA
+$textoResaltado: (
+    spanLorem: red,
+    spanIpsum: green,
+    spanDolor: blue,
+    spanElit: orange,
+);
+// BUCLE
+@each $palabra, $color in $textoResaltado {
+    .#{$palabra}{
+        color: $color;
+        font-weight: bold;
+    }
+}

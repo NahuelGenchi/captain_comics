@@ -1,5 +1,32 @@
 .mainInfo {
-    background-color: rgba(255, 255, 255, 0.801);
-    height: 86%;
+    background-color: $blanco;
+    min-height: 86vh;
     margin: 0 auto;
+    .first_container {
+        height: 30vh;
+    }
+    .infoBigContainer {
+        margin: 0 auto;
+        .infoContainer {
+            @include contenedor();
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .infoBigContainer {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 425px) {
+    .infoBigContainer {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .infoBigContainer {
+        height: 130vh;
+    }
 }

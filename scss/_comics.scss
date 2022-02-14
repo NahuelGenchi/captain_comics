@@ -27,16 +27,7 @@
                 border-right: 1px solid black;
                 border-bottom: 1px solid black;
                 .comicExplainContainer {
-                    height: 100%;
-                    width: 90%;
-                    margin: 0 auto;
-                    h3 {
-                        font-weight: bold;
-                        padding: 20px 0 0 0;
-                    }
-                    p {
-                        padding: 10px 0 0 0;
-                    }
+                    @include contenedor();
                 }
             }
         }
