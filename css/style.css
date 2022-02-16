@@ -126,31 +126,8 @@ body {
           .mainBiblioteca .comicContainer .row .comicThumbnail .comicThumbnail-dark h5 {
             width: 85%;
             margin: auto; }
-  .mainBiblioteca .nextPage_container {
-    height: 8vh;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.712);
-    border: 1px solid black; }
-    .mainBiblioteca .nextPage_container .nextPage {
-      height: 100%;
-      width: 35%;
-      margin: auto;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center; }
-      .mainBiblioteca .nextPage_container .nextPage a {
-        text-decoration: none;
-        background-color: #353535;
-        height: 25px;
-        width: 30px;
-        text-align: center;
-        color: white;
-        border-radius: 5px;
-        font-size: 15px; }
-      .mainBiblioteca .nextPage_container .nextPage .activeLink {
-        background-color: #1d1d1d; }
 
-.comicThumnail_fir {
+.comicThumnail_1 {
   background-image: url("../img/comics/amazing_spiderman.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
@@ -367,6 +344,21 @@ body {
 
 .characterThumnail_6 {
   background-image: url("../img/characters/iron_man.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.characterThumnail_7 {
+  background-image: url("../img/characters/spider-man.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.characterThumnail_8 {
+  background-image: url("../img/characters/thor.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.characterThumnail_9 {
+  background-image: url("../img/characters/thanos.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 

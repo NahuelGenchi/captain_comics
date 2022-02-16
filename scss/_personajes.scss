@@ -146,3 +146,12 @@
 .characterThumnail_6 {
     @include characterThumbnail (url("../img/characters/iron_man.jpg"))
 }
+.characterThumnail_7 {
+    @include characterThumbnail (url("../img/characters/spider-man.jpg"))
+}
+.characterThumnail_8 {
+    @include characterThumbnail (url("../img/characters/thor.jpg"))
+}
+.characterThumnail_9 {
+    @include characterThumbnail (url("../img/characters/thanos.jpg"))
+}
