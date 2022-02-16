@@ -62,11 +62,11 @@ body {
       .mainIndex .second_container .row .fir_row {
         background-image: url("../img/fir_img.jpg"); }
       .mainIndex .second_container .row .sec_row {
-        background-image: url("../img/background-sec_container.jpg"); }
+        background-image: url("../img/sec_img.jpg"); }
       .mainIndex .second_container .row .thi_row {
-        background-image: url("../img/venom.jpg"); }
+        background-image: url("../img/thi_img.jpg"); }
       .mainIndex .second_container .row .fou_row {
-        background-image: url("../img/fou_img.png"); }
+        background-image: url("../img/fou_img.jpg"); }
       .mainIndex .second_container .row .colEdit {
         width: 100%;
         height: 25%;
