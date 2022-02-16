@@ -9,3 +9,9 @@
             @extend %paddingParrafo;
         }
 }
+
+@mixin characterThumbnail ($background-image) {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
