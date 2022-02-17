@@ -1,5 +1,26 @@
 .mainContacto {
-    background-color: rgba(255, 255, 255, 0.801);
-    height: 86%;
+    background-color: $blanco;
+    height: 86vh;
     margin: 0 auto;
+    .first_container {
+        height: 30%;
+    }
+    .contactoContainer {
+        height: 70%;
+        padding: 0;
+        .contactoFila {
+            height: 100%;
+            .contactoTexto {
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .contactoCol {
+                    padding: 0;
+                }
+            }
+        }
+    }
 }

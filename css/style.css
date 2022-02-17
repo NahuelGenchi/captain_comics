@@ -205,9 +205,25 @@ body {
     width: 100%; }
 
 .mainContacto {
-  background-color: rgba(255, 255, 255, 0.801);
-  height: 86%;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 86vh;
   margin: 0 auto; }
+  .mainContacto .first_container {
+    height: 30%; }
+  .mainContacto .contactoContainer {
+    height: 70%;
+    padding: 0; }
+    .mainContacto .contactoContainer .contactoFila {
+      height: 100%; }
+      .mainContacto .contactoContainer .contactoFila .contactoTexto {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .mainContacto .contactoContainer .contactoFila .contactoTexto .contactoCol {
+          padding: 0; }
 
 .mainPersonajes {
   background-color: rgba(255, 255, 255, 0.801);
@@ -363,7 +379,7 @@ body {
   background-size: 100% 100%; }
 
 .mainInfo {
-  background-color: rgba(255, 255, 255, 0.801);
+  background-color: rgba(255, 255, 255, 0.9);
   min-height: 86vh;
   margin: 0 auto; }
   .mainInfo .first_container {
